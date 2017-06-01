@@ -39,7 +39,7 @@ public class JdbcTomcatDAO implements TomcatDAO {
         }
     }
 
-    private void initializeSchemaIfNeeded() {
+    private void initializeSchemaIfNeeded()  {
         try {
             Connection connection = getConnection();
             try {
